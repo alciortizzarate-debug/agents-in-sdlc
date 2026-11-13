@@ -23,7 +23,7 @@ Os apoiadores descobrem jogos no site do Tailspin Toys, não no terminal de dese
 
 A integração com o site precisa do agente implantado no Módulo 2. Você manterá esse agente em execução no Foundry enquanto o proxy e o site são executados localmente.
 
-1. Volte ao repositório do Tailspin Toys na branch `foundry-agent-cli` e à sessão existente do Copilot CLI.
+1. Volte ao Codespace e abra o repositório do Tailspin Toys na branch `foundry-agent-cli` e a sessão existente do Copilot CLI.
 2. Confirme que o Backer Concierge está implantado e que a invocação remota de [Crie e implante o agente][previous-lesson] foi bem-sucedida. Se você já removeu os recursos do Azure, recrie-os seguindo os módulos anteriores antes de continuar.
 
 > [!IMPORTANT]
@@ -67,7 +67,7 @@ O proxy oferece ao navegador uma forma segura de acessar o concierge. Agora, voc
     ```
 
 2. Mantenha a Function local em execução e inicie o site Astro em outro terminal usando o comando fornecido pelo Copilot.
-3. Volte ao Copilot CLI. O servidor MCP do Playwright que você adicionou na [Lição 4][playwright-lesson] já está disponível. Peça ao Copilot para testar o widget:
+3. Volte ao Copilot CLI. O servidor MCP do Playwright que você adicionou na [Lição 6][playwright-lesson] já está disponível. Peça ao Copilot para testar o widget:
 
     ```text
     Use the Playwright MCP server to test the Backer Concierge widget end to end in the running Tailspin Toys site. Verify its core chat flow, conversation continuity, accessibility, error handling, grounding boundaries, and secure use of the local proxy. Report the results and include evidence for any failures.
@@ -91,6 +91,6 @@ Continue em [Revisão e próximos passos][review] para encerrar o workshop da CL
 
 [overview]: ../
 [previous-lesson]: ../2-build-and-deploy/
-[review]: ../../9-review/
-[playwright-lesson]: ../../4-mcp/
+[review]: ../../10-review/
+[playwright-lesson]: ../../6-mcp-playwright/
 [cleanup]: ../#limpe-seus-recursos
